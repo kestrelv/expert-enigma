@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Recognizing Animals By Voice</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Shadows+Into+Light&family=Zeyada&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <center>
+            <div id="header_div">
+                <h1 id="title">Sound Controlled Animals</h1>
+                <h3 id="title">Note: Play Different sounds like barking, Meowing. </h3>
+            </div>
+            <br>
+            <button id="start_btn" class=" btn-lg" style="letter-spacing: 5px;"
+            onclick="startClassification()">
+        START
+        </button>
+        
+        <br>
+        <div>
+            <h1 id="dog_voice">Detected dog-</h1>
+            <h1 id="cat_voice">Detected cat-</h1>
+        </div>
+        <div>
+            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: black; font-size: 35px;" id="voice_dected">Detected voice is of- </h2>
+        <br>
+        <br>
+        <img src="https://www.freeiconspng.com/thumbs/ear-icon-png/ear-healthcare-hear-hearing-icon-15.png" width="300px" height="300px" id="ear_img">
+        <br>
+    </div>
+
+    </center>
+    <div id="footer_div">
+        <h3 id="footer">Developed by - Melanophile</h3>
+    </div>
+    </body>
+</html>
+<script src="main.js"></script>
+
+

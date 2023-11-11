@@ -1,0 +1,18 @@
+body{
+font-family: 'Kenia', sans-serif;
+color: white;
+background-color: black;
+}
+#header_div{
+    color: whitesmoke;
+    background-color: black;
+    }
+
+    #footer_div{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;    }
+
+        #start_btn{
+            color: black;
+            background-color: white;
+        }
